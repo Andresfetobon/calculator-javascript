@@ -1,5 +1,5 @@
 .appBg {
-  height: 500px;
+  height: 550px;
   width: 400px;
   border: 1px solid black;
   border-radius: 5px;
@@ -27,14 +27,26 @@
 
 .appBg input[type='button'],
 input[type='reset'] {
-  width: 22%;
+  width: 21%;
   height: 15%;
   cursor: pointer;
   font-family: monospace;
   font-weight: bold;
   font-size: 30px;
   color: black;
-  margin: 4px;
+  margin: 6px;
   border: 0;
   border-radius: 100%;
+}
+
+.color-btn {
+  background-color: rgb(248, 139, 49);
+}
+
+.color-btn-two {
+    background-color: rgb(255, 255, 255);
+}
+
+.color-btn-general {
+    background-color: rgb(229, 224, 224);
 }
